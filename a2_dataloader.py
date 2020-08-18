@@ -8,9 +8,9 @@ import torch
 
 #Compile a regular expression pattern into a regular expression object, which can be used 
 # for matching using its match(), search() and other methods
-TOKENIZER_PATTERN = re.compile(r'[' + re.escape(punctuation) + r'\d\s]+') # Whats the pattern
+TOKENIZER_PATTERN = re.compile(r'[' + re.escape(punctuation) + r'\d\s]+') 
 
-locale.setlocale(locale.LC_ALL, 'C')  # ensure reproducible sorting #Meaning?
+locale.setlocale(locale.LC_ALL, 'C')  # ensure reproducible sorting 
 
 __all__ = [
     'get_dir_lines',
