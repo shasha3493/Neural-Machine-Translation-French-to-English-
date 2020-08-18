@@ -1,9 +1,3 @@
-#! /usr/bin/env python3.7
-
-# Copyright 2020 University of Toronto, all rights reserved
-
-'''All command-line operations in A2'''
-
 import sys
 import os
 import argparse
