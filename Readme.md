@@ -5,7 +5,7 @@ A simple seq2seq model, with and without attention, is implemented. The model is
 
 # DataSet
 
-The main corpus for this project comes from the oﬃcial records (Hansards) of the 36th Canadian Parliament, including debates from both the House of Representatives and the Senate. This corpus is available at /u/cs401/A2/data/Hansard/ and has been split into Training/ and Testing/ directories. This data set consists of pairs of corresponding ﬁles (*.e is the English equivalent of the French *.f) in which every line is a sentence. Here, sentence are aligned in both the files. That is, the nth sentence in one ﬁle corresponds to the nth sentence in its corresponding ﬁle (e.g., line n in fubar.e is aligned with line n in fubar.f).
+The main corpus for this project comes from the oﬃcial records (Hansards) of the 36th Canadian Parliament, including debates from both the House of Representatives and the Senate. This corpus is available at /data/Hansard/ and has been split into Training/ and Testing/ directories. This data set consists of pairs of corresponding ﬁles (*.e is the English equivalent of the French *.f) in which every line is a sentence. Here, sentence are aligned in both the files. That is, the nth sentence in one ﬁle corresponds to the nth sentence in its corresponding ﬁle (e.g., line n in fubar.e is aligned with line n in fubar.f).
 
 # Dependencies
 
